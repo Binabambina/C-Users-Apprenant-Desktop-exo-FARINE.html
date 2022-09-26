@@ -1,0 +1,101 @@
+h1 {
+    color: black;
+    width: 10em;
+    margin: auto;
+    
+    font-family: 'Tangerine', cursive;
+    font-size: 50px;
+    text-align: center; 
+}
+
+h2 {
+    color: black;
+    width: 10em;
+    margin: auto;
+
+    font-family: 'Tangerine', cursive;
+    font-size:  50px;
+    text-align: center;
+
+}
+
+p {
+    font-family: 'Tangerine', cursive;
+    color: black;
+    width: 15em;
+    font-size: 1.5em;
+    margin: auto ;
+    padding-top: 0.9em;
+}
+
+a {
+    font-family: 'Tangerine', cursive;
+    font-size: 40px;
+    text-align: center;
+    background-color: bisque;
+
+}
+
+h3 {
+    color: black;
+    width: 10em;
+    margin: auto;
+
+    font-family: 'Tangerine', cursive;
+    font-size: 40px;
+    text-align: center;
+
+
+}
+
+body {
+    background-image: url(boulangerie.jpg);
+    text-align: center;
+}
+
+img {
+    border-radius: 200px;
+    width: 200px;
+    height: 200px;
+}
+div.parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+div.enfant{
+    margin: auto;
+}
+
+
+
+div.TITRE {
+    background-color: bisque;
+    width: 35em;
+    margin: auto;
+    border: solid 1px white;
+    border-radius: 50%;
+}
+ div.maman {
+    margin: auto;
+    width: 35em;
+    border: solid 1px bisque;
+    border-radius: 50%;
+    background-color: bisque;
+    height: 5em;
+    margin-bottom: 5em;
+ }
+
+ div.papa{
+    margin: auto;
+    width: 35em;
+    border:solid 1px bisque ;
+    border-radius: 50%;
+    background-color: bisque;
+    height: 15em ;
+    margin-bottom: 5em;
+ }
+
+ p.papa {
+    padding-top: 1.5em;
+ }
