@@ -1,0 +1,15 @@
+div.parent{
+    display: grid;
+    /* 3 colonnes dont celle du milieu qui prend 2x la place */
+    grid-template-columns: 1fr 2fr 1fr;
+    /* 3 lignes identiques*/
+    grid-template-rows: 1fr 1fr 1fr;
+
+
+}
+
+div.parent div {
+    
+}
+
+
