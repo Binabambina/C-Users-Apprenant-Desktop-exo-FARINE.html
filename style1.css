@@ -1,27 +1,27 @@
 h1 {
-    color: black;
+    color: maroon;
     width: 10em;
     margin: auto;
     
-    font-family: 'Tangerine', cursive;
+    font-family: 'Pacifico', cursive;
     font-size: 50px;
     text-align: center; 
 }
 
 h2 {
-    color: black;
+    color: maroon;
     width: 10em;
     margin: auto;
 
-    font-family: 'Tangerine', cursive;
+    
     font-size:  50px;
     text-align: center;
 
 }
 
 p {
-    font-family: 'Tangerine', cursive;
-    color: black;
+    
+    color: maroon;
     width: 15em;
     font-size: 1.5em;
     margin: auto ;
@@ -29,19 +29,19 @@ p {
 }
 
 a {
-    font-family: 'Tangerine', cursive;
+    
     font-size: 40px;
     text-align: center;
-    background-color: bisque;
+    background-color: grey;
 
 }
 
 h3 {
-    color: black;
+    color: maroon;
     width: 10em;
     margin: auto;
 
-    font-family: 'Tangerine', cursive;
+    
     font-size: 40px;
     text-align: center;
 
@@ -49,39 +49,45 @@ h3 {
 }
 
 body {
-    background-image: url(boulangerie.jpg);
+    background-color: black;
     text-align: center;
-}
+    font-family: 'Pacifico', cursive;
+    background-image: url("camion boulanger.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+ }
+
 
 img {
-    border-radius: 200px;
-    width: 200px;
-    height: 200px;
+    border-radius: 50px;
 }
 div.parent{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 div.enfant{
-    margin: auto;
+    text-align: left;
 }
 
-
+div.enfant img {
+    width: 430px;
+    margin-top: 100px;
+}
 
 div.TITRE {
-    background-color: bisque;
+    background-color: grey;
     width: 35em;
     margin: auto;
-    border: solid 1px white;
+    border: solid 1px maroon;
     border-radius: 50%;
 }
  div.maman {
     margin: auto;
     width: 35em;
-    border: solid 1px bisque;
+    border: solid 1px grey;
     border-radius: 50%;
-    background-color: bisque;
+    background-color: grey;
     height: 5em;
     margin-bottom: 5em;
  }
@@ -89,9 +95,9 @@ div.TITRE {
  div.papa{
     margin: auto;
     width: 35em;
-    border:solid 1px bisque ;
+    border:solid 1px grey ;
     border-radius: 50%;
-    background-color: bisque;
+    background-color: grey;
     height: 15em ;
     margin-bottom: 5em;
  }
@@ -99,3 +105,22 @@ div.TITRE {
  p.papa {
     padding-top: 1.5em;
  }
+
+
+ 
+ div.parent2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    row-gap: 1em;
+    border: 1px solid black;
+ }
+
+ div.parent2 div {
+    border: 1px solid black;
+ }
+
+ div.frére {
+    grid-row: 2;
+ }
+    
+
